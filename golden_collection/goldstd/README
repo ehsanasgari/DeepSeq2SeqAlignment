@@ -1,0 +1,92 @@
+--------
+ README
+--------
+Description of the content of the package of the Golden Collection of 
+aligned bi-texts between all combinations of Portuguese (PT), Spanish (ES),
+French (FR) and English (EN): PT-EN, PT-ES, PT-FR, ES-FR, 
+taken from the first 100 sentences of the common test set of the EuroParl
+corpus (http://www.statmt.org/europarl/archives.html).
+
+----------
+ Authors:
+----------
+- João Graça
+	javg@l2f.inesc-id.pt
+
+- Joana Paulo Pardal
+	joana@l2f.inesc-id.pt
+
+- Luísa Coheur
+	lcoheur@l2f.inesc-id.pt
+
+- Diamantino Caseiro
+	dcaseiro@l2f.inesc-id.pt
+
+-------------------
+ web site address:
+-------------------
+http://www.l2f.inesc-id.pt/resources/translation/
+
+-------
+ Cite:
+-------
+@InProceedings{graca_et_al_LREC_2008,
+	Title = {Building a golden collection of parallel 
+	         multi-Language word alignments},
+	Author = {Jo{\~a}o Gra{\c c}a and Joana Paulo Pardal and 
+	          Lu{\'\i}sa Coheur and Diamantino Caseiro},
+	Booktitle = {Proceedings of the 6th International Conference on 
+	             Language Resources and Evaluation, LREC 2008},
+	Series = {LREC},
+	Organization = {LREC 2008},
+	Address = {Marrakech, Morocco},
+	Month = {May 28-30},
+	Year = {2008}
+}
+
+@TechReport{graca_et_al_guidelines,
+	Author = {Jo{\~a}o Gra{\c c}a and Joana Paulo Pardal and 
+	          Lu{\'\i}sa Coheur and Diamantino Caseiro},
+	Title = {Multi-Language Word Alignments Annotation Guidelines},
+	Institution = {L$^{2}$F -- INESC-ID Lisboa/IST },
+	Number = {TR/38/2008},
+	Type = {Technical Report},
+	Address = {Lisboa, Portugal},
+	Month = {April},
+	Year = {2008}
+}
+
+-----------
+ CONTENTS:
+-----------
+
+*.wa: 
+	en-es_1-100.wa
+	en-fr_1-100.wa
+	en-pt_1-100.wa
+	es-fr_1-100.wa
+	pt-es_1-100.wa
+	pt-fr_1-100.wa
+
+Language-pairs annotations created with the annotation and visualization tool 
+implemented by Chris Callison-Burch (University of Edinburgh) 
+
+@InProceedings{Callison-Burch2004,
+	Author = {Chris Callison-Burch and David Talbot and Miles Osborne},
+	Title = {Statistical Machine Translation with 
+	         Word- and Sentence-Aligned Parallel Corpora},
+	Booktitle = {Proceedings of the 42nd Annual Meeting of the 
+	             Association for Computational Linguistics (ACL-2004)},
+	Address = {Barcelona},
+	Year = {2004}
+}
+
+sentences/1-100-final.*
+	1-100-final.en
+	1-100-final.es
+	1-100-final.fr
+	1-100-final.pt
+
+Sentences used for each of the languages.
+
+--
